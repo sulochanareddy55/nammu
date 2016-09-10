@@ -1,0 +1,3 @@
+var str="hello world! welcome to ruby programming language"
+var char_repeated=str.match(/d/gi).length;
+alert(char_repeated);
