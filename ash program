@@ -1,0 +1,7 @@
+values=hash.new( )
+values["firstname"]=sulochana
+values["age"]=24
+values["mail"]=s.sulochana55@gmail.com
+puts values["firstname"]
+puts values["age"]
+puts values["mail"]
