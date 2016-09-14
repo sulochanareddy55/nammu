@@ -1,0 +1,13 @@
+a=ARGV[0].to_i
+b=ARGV[1].to_i
+x=2
+if x==1
+puts a-b
+else if x==2
+puts a+b
+else if x==3
+puts a*b
+else if x==4
+puts a/b
+else 
+puts "invalid entry"
