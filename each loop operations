@@ -1,0 +1,33 @@
+BREAK:
+a=[0,1,2,3,4,5]
+a.each do|val|
+if val>2 then
+break
+end
+puts val
+end
+
+REDO:
+a=[0,1,2,3,4,5]
+a.each do |val|
+if val<2 then
+puts val
+redo
+end 
+end
+
+NEXT:
+a=[0,1,2,3,4,5]
+a.each do |val|
+if val<2 then
+next
+end
+puts val
+end
+
+RETRY:
+a=[0,1,2,3,4,5]
+a.each do |val|
+retry if val>3
+puts val
+end
